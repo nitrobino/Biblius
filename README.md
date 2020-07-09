@@ -1,6 +1,6 @@
 # Biblius
 
-´´´python
+```python
 import pandas as pd
 import numpy 
 from fuzzywuzzy import process
@@ -185,4 +185,4 @@ def add_book(cota,quantidade,quantidade1,boolada,categorias=[]):
             new_Catalogo.to_csv('/Users/paularibeiro/Desktop/3º ano/LAC/catalogo_cotas.csv', index = False)
             return ''
 
-´´´
+```
